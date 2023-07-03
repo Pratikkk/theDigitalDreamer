@@ -44,7 +44,7 @@ const Navbar = () => {
             <Link href='/' className={styles.logo}>
                 The Digital Dreamer
             </Link>
-            <div className={styles.link}>
+            <div className={styles.links}>
                 {links.map(link => (
                     <Link key={link.id} href={link.url}>
                         {link.title}
